@@ -8,6 +8,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+  .profile-highlights{list-style:none;padding:0;margin:20px 0 0;}
+.profile-highlights li{
+  padding:6px 0 6px 20px;position:relative;
+  font-size:0.92rem;color:var(--ink);
+}
+.profile-highlights li::before{
+  content:"★";position:absolute;left:0;top:6px;
+  color:var(--gold);font-size:0.75rem;
+}
   :root{
     --navy:#14213D; --navy-deep:#0C1626; --cream:#FAF7F0; --paper:#FFFFFF;
     --gold:#C99A3C; --brick:#A8362B; --ink:#1C1C1C; --ink-soft:#54545C; --line:#E4DFD3;
@@ -92,65 +101,85 @@
   <div class="wrap">
     <div class="profile-list">
 
-      <div class="profile-card">
-        <div class="profile-photo">Photo</div>
-        <div class="profile-body">
-          <h2>Ryan Burgess</h2>
-          <div class="profile-school">Rice University — Business and Sport Management</div>
-          <div class="profile-scores"><span class="score-pill">ACT 36</span></div>
-          <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the ACT.]</p>
-          <p class="profile-specialties"><strong>Specialties:</strong> [e.g. ACT Math, Science, pacing strategy]</p>
-          <div class="profile-cta"><a class="btn btn-gold" href="index.html#book">Book with Ryan</a></div>
-        </div>
-      </div>
+     <div class="profile-card">
+  <div class="profile-photo">Photo</div>
+  <div class="profile-body">
+    <h2>Ryan Burgess</h2>
+    <div class="profile-school">Rice University — Business and Sport Management</div>
+    <div class="profile-scores"><span class="score-pill">ACT 36</span></div>
+    <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the ACT.]</p>
+    <p class="profile-specialties"><strong>Specialties:</strong> [e.g. ACT Math, Science, pacing strategy]</p>
+    <ul class="profile-highlights">
+      <li>ACT composite: 36</li>
+      <li>[National Merit status, if any]</li>
+      <li>[Years tutoring / number of students helped]</li>
+    </ul>
+  </div>
+</div>
 
-      <div class="profile-card">
-        <div class="profile-photo">Photo</div>
-        <div class="profile-body">
-          <h2>Kai Olivarez</h2>
-          <div class="profile-school">Brown University — Chemistry and Latin American Studies</div>
-          <div class="profile-scores"><span class="score-pill">ACT 36</span></div>
-          <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the ACT.]</p>
-          <p class="profile-specialties"><strong>Specialties:</strong> ACT, PSAT, Physical Sciences, and Life Sciences</p>
-          <div class="profile-cta"><a class="btn btn-gold" href="index.html#book">Book with Kai</a></div>
-        </div>
-      </div>
+<div class="profile-card">
+  <div class="profile-photo">Photo</div>
+  <div class="profile-body">
+    <h2>Kai Olivarez</h2>
+    <div class="profile-school">Brown University — Chemistry and Latin American Studies</div>
+    <div class="profile-scores"><span class="score-pill">ACT 36</span></div>
+    <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the ACT.]</p>
+    <p class="profile-specialties"><strong>Specialties:</strong> ACT, PSAT, Physical Sciences, and Life Sciences</p>
+    <ul class="profile-highlights">
+      <li>ACT composite: 36</li>
+      <li>[National Merit status, if any]</li>
+      <li>[Years tutoring / number of students helped]</li>
+    </ul>
+  </div>
+</div>
 
-      <div class="profile-card">
-        <div class="profile-photo">Photo</div>
-        <div class="profile-body">
-          <h2>Luiz Coimbra</h2>
-          <div class="profile-school">Purdue University — Aerospace Engineering</div>
-          <div class="profile-scores"><span class="score-pill">ACT 36</span></div>
-          <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the ACT.]</p>
-          <p class="profile-specialties"><strong>Specialties:</strong> ACT, PSAT, Engineering, and Mathematics</p>
-          <div class="profile-cta"><a class="btn btn-gold" href="index.html#book">Book with Luiz</a></div>
-        </div>
-      </div>
+<div class="profile-card">
+  <div class="profile-photo">Photo</div>
+  <div class="profile-body">
+    <h2>Luiz Coimbra</h2>
+    <div class="profile-school">Purdue University — Aerospace Engineering</div>
+    <div class="profile-scores"><span class="score-pill">ACT 36</span></div>
+    <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the ACT.]</p>
+    <p class="profile-specialties"><strong>Specialties:</strong> ACT, PSAT, Engineering, and Mathematics</p>
+    <ul class="profile-highlights">
+      <li>ACT composite: 36</li>
+      <li>[National Merit status, if any]</li>
+      <li>[Years tutoring / number of students helped]</li>
+    </ul>
+  </div>
+</div>
 
-      <div class="profile-card">
-        <div class="profile-photo">Photo</div>
-        <div class="profile-body">
-          <h2>Boone Roeser</h2>
-          <div class="profile-school">Vanderbilt University — Biomedical Engineering</div>
-          <div class="profile-scores"><span class="score-pill">ACT 35</span></div>
-          <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the ACT.]</p>
-          <p class="profile-specialties"><strong>Specialties:</strong> ACT, Physics, and Mathematics</p>
-          <div class="profile-cta"><a class="btn btn-gold" href="index.html#book">Book with Boone</a></div>
-        </div>
-      </div>
+<div class="profile-card">
+  <div class="profile-photo">Photo</div>
+  <div class="profile-body">
+    <h2>Boone Roeser</h2>
+    <div class="profile-school">Vanderbilt University — Biomedical Engineering</div>
+    <div class="profile-scores"><span class="score-pill">ACT 35</span></div>
+    <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the ACT.]</p>
+    <p class="profile-specialties"><strong>Specialties:</strong> ACT, Physics, and Mathematics</p>
+    <ul class="profile-highlights">
+      <li>ACT composite: 35</li>
+      <li>[National Merit status, if any]</li>
+      <li>[Years tutoring / number of students helped]</li>
+    </ul>
+  </div>
+</div>
 
-      <div class="profile-card">
-        <div class="profile-photo">Photo</div>
-        <div class="profile-body">
-          <h2>Daniel Chen</h2>
-          <div class="profile-school">Northwestern University — Computer Science</div>
-          <div class="profile-scores"><span class="score-pill">SAT 1570</span></div>
-          <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the SAT.]</p>
-          <p class="profile-specialties"><strong>Specialties:</strong> SAT, Computer Science, and Mathematics</p>
-          <div class="profile-cta"><a class="btn btn-gold" href="index.html#book">Book with Daniel</a></div>
-        </div>
-      </div>
+<div class="profile-card">
+  <div class="profile-photo">Photo</div>
+  <div class="profile-body">
+    <h2>Daniel Chen</h2>
+    <div class="profile-school">Northwestern University — Computer Science</div>
+    <div class="profile-scores"><span class="score-pill">SAT 1570</span></div>
+    <p class="bio">[Add background: hometown/high school, why he tutors, and his approach to the SAT.]</p>
+    <p class="profile-specialties"><strong>Specialties:</strong> SAT, Computer Science, and Mathematics</p>
+    <ul class="profile-highlights">
+      <li>SAT composite: 1570</li>
+      <li>[National Merit status, if any]</li>
+      <li>[Years tutoring / number of students helped]</li>
+    </ul>
+  </div>
+</div>
 
     </div>
 
