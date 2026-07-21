@@ -8,6 +8,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+  .btn-outline-dark{border:1px solid var(--navy);color:var(--navy);}
+.btn-outline-dark:hover{background:var(--navy);color:var(--cream);}
+.tutor-more{margin-top:28px;text-align:center;}
   :root{
     --navy:#14213D;
     --navy-deep:#0C1626;
@@ -329,7 +332,10 @@
     </div>
 
     <p class="tutor-caption">Showing <span id="tutorCount">3</span> of <span id="tutorTotal">5</span> tutors · rotating every <span id="tutorInterval">5</span>s</p>
-  </div>
+
+    <div class="tutor-more">
+      <a class="btn btn-outline-dark" href="tutors.html">More about our tutors →</a>
+    </div>
 </section>
 
 <section id="pricing" style="background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
